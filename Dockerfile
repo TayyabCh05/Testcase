@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 RUN ls -lsa
-WORKDIR Home/asad
+WORKDIR /home/asad/assignment 
 COPY requirments.txt .
 RUN pip install -r requirments.txt
 COPY . .
