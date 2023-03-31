@@ -38,4 +38,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: asad906/assignment:latest
+          tags: TayyabCh05/Testcase:latest
